@@ -62,6 +62,10 @@ export default createGlobalStyle`
 
   a:hover {
       text-decoration: #1C1D1E;
+      opacity: 0.5;
+      transition: opacity .25s ease-in-out;
+      -moz-transition: opacity .25s ease-in-out;
+      -webkit-transition: opacity .25s ease-in-out;
   }
 
   a:active {

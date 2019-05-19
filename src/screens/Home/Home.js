@@ -20,7 +20,7 @@ const Subtext = styled(Text)`
   letter-spacing: 2px;
 `;
 
-const ComingSoon = () => {
+const Home = () => {
   return (
     <Root>
       <Img src="https://i.imgur.com/yXp4z4e.png" height={150} width={150} />
@@ -28,13 +28,16 @@ const ComingSoon = () => {
         S5E
       </Wordmark>
       <Subtext faded>
-        Launching Fall 2019 •{" "}
+        <a href="https://s5e.typeform.com/to/FacUDP" target="_blank">
+          Work with us
+        </a>{" "}
+        •{" "}
         <a href="mailto:nick@s5e.dev" target="_blank">
-          Contact
+          Get in touch
         </a>
       </Subtext>
     </Root>
   );
 };
 
-export default ComingSoon;
+export default Home;
