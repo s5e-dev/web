@@ -24,15 +24,23 @@ const Home = () => {
   return (
     <Root>
       <Img src="https://i.imgur.com/yXp4z4e.png" height={150} width={150} />
-      <Wordmark weight="200" size={40}>
+      <Wordmark weight="300" size={40}>
         S5E
       </Wordmark>
-      <Subtext faded>
-        <a href="https://s5e.typeform.com/to/FacUDP" target="_blank">
+      <Subtext weight="200" faded>
+        <a
+          href="https://s5e.typeform.com/to/FacUDP"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Work with us
         </a>{" "}
         •{" "}
-        <a href="mailto:nick@s5e.dev" target="_blank">
+        <a
+          href="mailto:nick@s5e.dev?Subject=S5E%20Inquiry"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Get in touch
         </a>
       </Subtext>
